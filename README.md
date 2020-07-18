@@ -21,7 +21,7 @@ API utilizada: https://jsonplaceholder.typicode.com/posts?userId={id}
 
 
 ## Ficha técnica
-App exemplo desenvolvido em `Kotlin`, 
-Estrutura de Layouts utilizados: `ConstraintLayout`, `LinearLayout`
-Request realizadas usando: `Retrofit`
-Lista: `recyclerview`
+ - App exemplo desenvolvido em `Kotlin`
+ - Estrutura de Layouts utilizados: `ConstraintLayout`, `LinearLayout`
+ - Request realizadas usando: `Retrofit`
+ - Lista: `recyclerview`

@@ -18,3 +18,10 @@ Quando o usuário clicar em um item da lista, deverá ser redirecionado para uma
 ## Modulo 4 - Detalhe
 Criar a requisição para buscar as postagens do usuário selecionado no módulo anterior e exibir o resultado numa lista (código de referência SampleApp - detalhes)
 API utilizada: https://jsonplaceholder.typicode.com/posts?userId={id}
+
+
+## Ficha técnica
+App exemplo desenvolvido em `Kotlin`, 
+Estrutura de Layouts utilizados: `ConstraintLayout`, `LinearLayout`
+Request realizadas usando: `Retrofit`
+Lista: `recyclerview`

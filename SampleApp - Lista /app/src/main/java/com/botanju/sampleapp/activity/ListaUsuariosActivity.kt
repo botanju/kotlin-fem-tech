@@ -60,10 +60,6 @@ class ListaUsuariosActivity : AppCompatActivity() {
     }
 
     private fun abrirPost(usuario: Usuario){
-        val intent = Intent(this, PostagensActivity::class.java)
-            .putExtra("usuario", usuario)
-            .apply {  }
 
-        startActivity(intent)
     }
 }

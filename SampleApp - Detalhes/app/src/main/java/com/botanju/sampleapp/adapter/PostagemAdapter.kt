@@ -34,8 +34,8 @@ class PostagemAdapter (private val list: List<Postagem>,
         fun bindView(
             post: Postagem
         ) {
-            itemView.lbl_titulo.text = "titulo: ${post.titulo}"
-            itemView.lbl_conteudo.text = "conteudo: ${post.conteudo}"
+            itemView.lbl_titulo.text = post.titulo
+            itemView.lbl_conteudo.text = post.conteudo
         }
 
     }

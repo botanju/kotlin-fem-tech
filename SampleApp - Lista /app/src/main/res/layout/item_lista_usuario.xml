@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content" android:layout_margin="8dp">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lbl_nome"/>
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/lbl_nome"
+        tools:text="nome: teste"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lbl_apelido"/>
+        android:id="@+id/lbl_apelido"
+        tools:text="apelido: teste"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lbl_email"/>
+        android:id="@+id/lbl_email"
+        tools:text="email: teste@abc.com"/>
 
     <View
         android:layout_width="match_parent"

@@ -25,3 +25,4 @@ API utilizada: https://jsonplaceholder.typicode.com/posts?userId={id}
  - Estrutura de Layouts utilizados: `ConstraintLayout`, `LinearLayout`
  - Request realizadas usando: `Retrofit`
  - Lista: `recyclerview`
+ - Parse de modelos `gson`
